@@ -1,0 +1,6 @@
+path: D:/snapshot detection/datasets/training-aug
+train: images/train
+val: images/val
+test: images/test
+nc: 8
+names: ["PC", "HGV", "HDB", "TX", "FBDD", "LGV", "LDB", "MC"]

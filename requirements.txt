@@ -1,0 +1,12 @@
+# This file may be used to create an environment using:
+# pip install -r requirements.txt
+lxml
+xmltodict
+numpy
+openpyxl
+pandas
+requests
+tqdm
+pytorch
+ultralytics
+albumentation
