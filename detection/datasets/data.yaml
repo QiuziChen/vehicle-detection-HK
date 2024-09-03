@@ -1,4 +1,4 @@
-path: D:/snapshot detection/datasets/training-aug
+path: D:/snapshot detection/datasets/data
 train: images/train
 val: images/val
 test: images/test
