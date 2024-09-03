@@ -66,6 +66,6 @@ def convert_labelme_to_yolo(json_folder, img_folder, output_base_folder, subfold
 if __name__ == '__main__':
     json_folder = input("Enter the path to the JSON folder (e.g., './raw/train/labels'): ")
     img_folder = input("Enter the path to the image folder (e.g., './raw/train/images'): ")
-    output_base_folder = input("Enter the path to the base output folder (e.g., './training): ")
-    subfolder_name = input("Enter the name of the subfolder (e.g., 'train'): ")
+    output_base_folder = input("Enter the path to the base output folder (e.g., './data): ")
+    subfolder_name = input("Enter the name of the subfolder ('train', 'val', or 'test'): ")
     convert_labelme_to_yolo(json_folder, img_folder, output_base_folder, subfolder_name)
